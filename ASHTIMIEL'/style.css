@@ -3,7 +3,33 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
     
+}
+
+.backtxt {
+    position: absolute;
+    padding-left: 13%;
+    font-size: large;
+    color: #7E7E82;
+}
+
+.backtxt1 {
+    position: fixed;
+    left: 8.5cm;
+    font-size: large;
+    background: linear-gradient(to right, #7E7E82, #7e7e8200);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.back {
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 8%;
+    width: 246px;
+    height: 40px;
 }
 
 .osnova {
@@ -14,12 +40,13 @@
 
 .uslugi {
     position: relative;
-    padding-left: 30px;
+    padding-left: 8%;
     font-size: 28px;
     font-family: ttlakes;
 }
 .palka {
     position: absolute;
+    padding-top: 6%;
 }
 
 .icon {
@@ -33,9 +60,38 @@
     top: 9px;
 }
 
+.maintxt {
+    position: relative;
+    padding-top: 15%;
+    padding-left: 8%;
+    font-size:large;
+    line-height: 18px;
+    width: 90%;
+    height: 90px;
+}
+
+.expand {
+    position: absolute;
+    padding-left: 8%;
+    padding-top: 3%
+}
+
+.exptxt {
+    padding-top: 3%;
+    padding-left: 15%;
+    font-size: larger;
+}
+
+.pic {
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
 body {
     margin: 0;
  }
- @media (min-width: 480px) {
+
+ @media (min-width: 768px) {
     .header
  }
