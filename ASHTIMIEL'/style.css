@@ -49,7 +49,25 @@
     padding-top: 6%;
 }
 
+.icon1 {
+    position: relative;
+    width: 50px;
+    top: 9px;
+}
+
 .icon {
+    position: relative;
+    width: 50px;
+    top: 9px;
+}
+
+.icon3 {
+    position: relative;
+    width: 50px;
+    top: 9px;
+}
+
+.icon4 {
     position: relative;
     width: 50px;
     top: 9px;
@@ -92,6 +110,74 @@ body {
     margin: 0;
  }
 
+ .divider1 {
+    display: none;
+ }
+
+ .iconlap1 {
+    display: none;
+ }
+
+ .iconlap2 {
+    display: none;
+ }
+
+ .iconlap3 {
+    display: none;
+ }
+
  @media (min-width: 768px) {
-    .header
+    .header {
+        justify-content: right;
+        padding: 16px;
+    }
+    .icon1 {
+        position: absolute;
+        padding-right: 95%;
+        width: 50px;
+        top: 9px;
+    }
+    .icon2 {
+        display: flex;
+        position: absolute;
+        padding-right: 80%;
+        padding-top: %;
+    }
+
+    .divider {
+        display: flex;
+        position: absolute;
+        padding-right: 93.5%;
+        padding-top: ;
+    }
+
+    .divider1 {
+        display: flex;
+        position: absolute;
+        padding-right: 13%;
+        padding-top: ;
+    }
+
+    .iconlap1 {
+        display: flex;
+        position: absolute;
+        padding-right: 15%;
+        padding-top: ;
+    }
+
+    .iconlap2 {
+        display: flex;
+        position: absolute;
+        padding-right: 22%;
+        padding-top: ;
+    }
+
+    .iconlap3 {
+        display: flex;
+        position: absolute;
+        padding-right: 29%;
+        padding-top: ;
+    }
+
+    }
  }
