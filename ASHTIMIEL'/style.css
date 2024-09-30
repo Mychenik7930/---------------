@@ -6,9 +6,36 @@
     
 }
 
+.osnova {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uslugi {
+    position: relative;
+    padding-left: 30px;
+    font-size: 28px;
+    font-family: ttlakes;
+}
+.palka {
+    position: absolute;
+}
+
+.icon {
+    position: relative;
+    width: 50px;
+    top: 9px;
+}
+
+.divider {
+    position: relative;
+    top: 9px;
+}
+
 body {
     margin: 0;
  }
- @media  {
-    
+ @media (min-width: 480px) {
+    .header
  }
